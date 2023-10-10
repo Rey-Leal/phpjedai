@@ -1,15 +1,22 @@
 <html>
 
 <head>
-    <title>01 Console Log e Alert</title>
+    <title>01 ...</title>
 </head>
 
 <body>
+    <header>
+        <h2>01 ...</h2>
+    </header>
+
+    <?php
+    $texto = 'lorem ipsum';
+    echo ($texto);
+    ?>
+
     <script>
         // Console é utilizado para debug
         console.log('Log no console aplication');
-        // Alertas visuais em tela
-        window.alert('Alertas em tela');
     </script>
 </body>
 
