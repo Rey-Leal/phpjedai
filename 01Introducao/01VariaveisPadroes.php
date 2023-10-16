@@ -27,10 +27,6 @@
     print_r($_SERVER);
     echo ('</pre>');
     ?>
-
-    <script>
-        console.log('Log no console aplication');
-    </script>
 </body>
 
 </html>

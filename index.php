@@ -13,6 +13,7 @@
                 <dt>01 Introdução</dt>
                 <dd><a href="01Introducao/01VariaveisPadroes.php">01 Variáveis Padrões do PHP</a></dd>
                 <dd><a href="01Introducao/02Constantes.php">02 Constantes</a></dd>
+                <dd><a href="01Introducao/03ConsoleLog.php">03 Console Log</a></dd>
             </dl>
             <dl>
                 <dt>02 Intermediário</dt>
@@ -25,8 +26,8 @@
                 <dd><a href="02Intermediario/07SessionCookies.php">06 Session e Cookies</a></dd>
             </dl>
             <dl>
-                <dt>03 ...</dt>
-                <dd><a href="03/01.php">01 ...</a></dd>                
+                <dt>03 Orientação a Objetos</dt>
+                <dd><a href="03OrientacaoObjetos/01Classes.php">01 Classes</a></dd>
             </dl>
         </div>
 
