@@ -18,6 +18,8 @@
                 <dt>02 Intermediário</dt>
                 <dd><a href="02Intermediario/01Foreach.php">01 For e Foreach</a></dd>
                 <dd><a href="02Intermediario/02ArrayMultidimensional.php">02 Array Multimensional</a></dd>
+                <dd><a href="02Intermediario/03DieSleep.php">03 Die Sleep</a></dd>
+                <dd><a href="02Intermediario/04DatasInclude.php">04 Datas Include</a></dd>
             </dl>
         </div>
 

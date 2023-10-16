@@ -10,10 +10,23 @@
     </header>
 
     <?php
-    
+    $nomes = array('Rey', 'Ana', 'Lara', 'Raul');
+
+    //Foreach
+    foreach ($nomes as $key => $value) {
+        echo ($key . ' = ' . $nomes[$key] . '</br>');
+    }
+
+    echo ('</br>');
+
+    //For
+    $total = count($nomes);
+    for ($i = 0; $i < $total; $i++) {
+        echo ($i . ' = ' . $nomes[$i] . '</br>');
+    }
     ?>
 
-    <script>        
+    <script>
     </script>
 </body>
 
