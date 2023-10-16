@@ -27,7 +27,7 @@
             </dl>
             <dl>
                 <dt>03 Orientação a Objetos</dt>
-                <dd><a href="03OrientacaoObjetos/01Classes.php">01 Classes</a></dd>
+                <dd><a href="03OrientacaoObjetos/01Class.php">01 Class</a></dd>
             </dl>
         </div>
 
