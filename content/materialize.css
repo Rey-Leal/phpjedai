@@ -5219,9 +5219,9 @@ small {
   border: none;
   border-radius: 2px;
   display: inline-block;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 16px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 6px;
   text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
