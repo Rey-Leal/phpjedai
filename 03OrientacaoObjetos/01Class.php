@@ -7,6 +7,14 @@
 <body>
     <header>
         <h2>01 Class</h2>
+        <!--
+            Visibilidade de Classes, Métodos e Atributos 
+            Public   	pode ser acessado e alterado do lado de fora por qualquer pessoa
+            Private    	so pode ser acessado de dentro da classe
+            Protected 	existe somente dentro de seu escopo {...}
+            Static      acessiveis sem a necessidade de instanciar a classe
+            Final       nao pode ser herdada em outras classe
+         -->
     </header>
 
     <?php
@@ -53,10 +61,11 @@
     }
 
     // Se instancia a classe para acessar seus metodos e atributos 
-    $pessoa = new Pessoa('Rey', 38, 81);
-    $pessoa->mostrarDados();
-    $pessoa->fezAniversario();
-    $pessoa->mostrarDados();
+    $pessoaA = new Pessoa('Rey', 38, 81);    
+    $pessoaA->fezAniversario();
+    $pessoaA->mostrarDados();
+    $pessoaB = new Pessoa('Ana', 39, 73);
+    $pessoaB->mostrarDados();
 
     // Metodos estaticos nao necessitam de instancia
     echo (Pessoa::$varEstatica . '</br>')
