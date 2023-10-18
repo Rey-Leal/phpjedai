@@ -9,11 +9,12 @@
         <h2>01 Class</h2>
         <!--
             Visibilidade de Classes, Métodos e Atributos 
-            Public   	pode ser acessado e alterado do lado de fora por qualquer pessoa
-            Private    	so pode ser acessado de dentro da classe
-            Protected 	existe somente dentro de seu escopo {...}
-            Static      acessiveis sem a necessidade de instanciar a classe
-            Final       nao pode ser herdada em outras classe
+            public   	pode ser acessado e alterado do lado de fora por qualquer pessoa
+            private    	so pode ser acessado de dentro da classe
+            protected 	existe somente dentro de seu escopo {...}
+            static      acessiveis sem a necessidade de instanciar a classe
+            final       nao pode ser herdada em outras classe
+            abstract    serve apenas para ser herdada, nao pode ser instanciada
          -->
     </header>
 
@@ -26,6 +27,7 @@
 
         public static $varEstatica = 'Variável Estática';
 
+        // Primeiro metodo chamado automaticamente ao instanciar a Classe
         function __construct($nome, $idade, $peso)
         {
             $this->_nome = $nome;

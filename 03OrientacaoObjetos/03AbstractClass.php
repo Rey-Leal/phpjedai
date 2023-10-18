@@ -1,12 +1,12 @@
 <html>
 
 <head>
-    <title>02 Final Class</title>
+    <title>03 Abstract Class</title>
 </head>
 
 <body>
     <header>
-        <h2>02 Final Class</h2>
+        <h2>03 Abstract Class</h2>
         <!--
             Visibilidade de Classes, Métodos e Atributos 
             public   	pode ser acessado e alterado do lado de fora por qualquer pessoa
@@ -19,9 +19,8 @@
     </header>
 
     <?php
-
-    // Pode ser herdada em outras classes
-    class Pai
+    // Nao pode ser instanciada
+    abstract class Pai
     {
         public function gerarRenda()
         {
@@ -29,8 +28,7 @@
         }
     }
 
-    // Nao pode ser herdada em outras classes
-    final class Filha extends Pai
+    class Filha extends Pai
     {
         public function cuidar()
         {
@@ -38,17 +36,13 @@
         }
     }
 
-    // ERRO! - Pois herdou uma classe 'final'
-    class Neta extends Filha
-    {
-        public function fazerBagunca()
-        {
-            echo ('Neta.fazerBagunca' . '</br>');
-        }
-    }
-
     $filha = new Filha();
     $filha->cuidar();
+    $filha->gerarRenda();
+
+    // ERRO! - Pois instanciou uma classe 'abstract'
+    $pai = new Pai();
+    $pai->gerarRenda();
     ?>
 </body>
 
