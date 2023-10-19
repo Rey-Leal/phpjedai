@@ -2,7 +2,7 @@
 
 <head>
     <title>06 GET e POST</title>
-    <?php include('head.php'); ?>
+    <?php include_once('head.php'); ?>
 </head>
 
 <body>
