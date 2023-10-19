@@ -23,7 +23,7 @@
                 <dd><a href="02Intermediario/04DatasNativa.php">04 Datas Nativa</a></dd>
                 <dd><a href="02Intermediario/05ImplodeExplode.php">05 Implode Explode</a></dd>
                 <dd><a href="02Intermediario/06GetPost.php">06 GET e POST</a></dd>
-                <dd><a href="02Intermediario/07SessionCookies.php">06 Session e Cookies</a></dd>
+                <dd><a href="02Intermediario/07SessionCookies.php">07 Session e Cookies</a></dd>
             </dl>
             <dl>
                 <dt>03 Orientação a Objetos</dt>

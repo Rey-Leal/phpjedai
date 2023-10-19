@@ -2,12 +2,11 @@
 
 <head>
     <title>07 Session e Cookies</title>
-    <?php include('head.php'); ?>
 </head>
 
 <body>
     <header>
-        <h4>07 Session e Cookies</h4>
+        <h2>07 Session e Cookies</h2>
     </header>
 
     <?php
