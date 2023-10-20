@@ -7,15 +7,7 @@
 
 <body>
     <header>
-        <h4>01 Comandos PDO</h4>
-        <?php
-        // Alerta de mensagens
-        if (isset($_GET["mensagem"])) {
-            $msg = $_GET["mensagem"];
-            echo ($msg);
-        } else {
-            $msg = "";
-        } ?>
+        <h4>01 Comandos PDO</h4>        
     </header>
 
     <!-- Cadastro de clientes -->
@@ -33,6 +25,15 @@
     <form action="truncateClientes.php" method="post">
         <button class="btn-large" type="submit" name="limpar" value="limpar">Limpar Tabela</button>
     </form>
+    
+    <?php
+        // Alerta de mensagens
+        if (isset($_GET["mensagem"])) {
+            $msg = $_GET["mensagem"];
+            echo ($msg);
+        } else {
+            $msg = "";
+        } ?>
 </body>
 
 </html>
