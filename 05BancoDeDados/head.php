@@ -1,11 +1,5 @@
 <?php
-// Alerta de mensagens
-if (isset($_GET["mensagem"])) {
-    $msg = $_GET["mensagem"];
-    echo ("<script>alert('$msg');</script>");
-} else {
-    $msg = "";
-}
+date_default_timezone_set('America/Sao_Paulo');
 ?>
 
 <!-- Styles -->

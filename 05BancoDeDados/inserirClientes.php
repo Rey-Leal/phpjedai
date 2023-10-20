@@ -1,22 +1,24 @@
 <?php
 try {
     include_once('conexao.php');
-    date_default_timezone_set('America/Sao_Paulo');
 
     if (isset($_POST['nome']) && isset($_POST['sobrenome'])) {
         $nome = $_POST['nome'];
         $sobrenome = $_POST['sobrenome'];
         $dataCadastro = date('Y-m-d H:i:s');
 
+        // Usando ? nos parametros da query o PDO consegue evitar SQL Injections, retirando caracteres maliciosos      
+
+        // INSERT
         $sql = "INSERT INTO clientes 
-                VALUES (0, ?, ?, ?)";
+                VALUES (0, ?, ?, ?);";
         $conexao = $pdo->prepare($sql);
         $conexao->execute(array($nome, $sobrenome, $dataCadastro));
 
-        header("Location: 01InsertPDO.php?mensagem=Cliente ($nome) salvo com sucesso!");
+        header("Location: 01ComandosPDO.php?mensagem=Cliente salvo com sucesso!");
         exit;
     } else {
-        echo ('Preencher dados de cadastro!' . '</br>');
+        header("Location: 01ComandosPDO.php?mensagem=Preencher dados de cadastro!");
     }
 } catch (Exception $e) {
     die("Erro: " . $e->getMessage() . "<br>");
