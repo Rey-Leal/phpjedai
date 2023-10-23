@@ -21,18 +21,29 @@
         curl_close($curl);
 
         if (!curl_errno($curl)) {
+            // Imprime toda estrutura de retorno 
             echo ('<pre>');
             print_r($api);
             echo ('</pre>');
 
-            foreach ($api as $key => $value) {
-                $nome = $api[$key]->nome;
-                $sobrenome = $api[$key]->sobrenome;
-                $sexo = $api[$key]->sexo;
-                echo ($key . ' ' . $nome . ' ' . $sobrenome . ' ' .  $sexo . '<br>');
+            // Imprime elementos
+            if ($api != null) {
+                foreach ($api as $i => $value) {
+                    $nome = $api[$i]->nome;
+                    $sobrenome = $api[$i]->sobrenome;
+                    $sexo = $api[$i]->sexo;
+                    echo ($i . ' ' . $nome . ' ' . $sobrenome . ' ' .  $sexo . ' ');
+                    foreach ($api[$i]->cor as $y => $value) {
+                        $cor = $api[$i]->cor[$y];
+                        echo ($y . ' ' . $cor . ' ');
+                    }
+                    echo ('<br>');
+                }
+            } else {
+                echo ("API não retornou!" . "<br>");
             }
         } else {
-            die("API não retornou!" . "<br>");
+            echo ("Erro cURL: " . curl_errno($curl) . '<br>');
         }
     } catch (Exception $e) {
         die("Erro: " . $e->getMessage() . "<br>");
