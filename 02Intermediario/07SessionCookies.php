@@ -14,7 +14,7 @@
     session_start();
     $_SESSION['usuario'] = 'Rey';
     if (isset($_SESSION['usuario'])) {
-        echo ($_SESSION['usuario'] . '</br>');
+        echo ($_SESSION['usuario'] . '<br>');
     }
     session_destroy();
 
@@ -25,7 +25,7 @@
     //      time() + (60 * 60 * 24) = 24 hs/1 dia
     setcookie('valor', 379, time() + (60 * 60), '/');
     if (isset($_COOKIE['valor'])) {
-        echo ($_COOKIE['valor'] . '</br>');
+        echo ($_COOKIE['valor'] . '<br>');
     }
 
     // Para forcar a exclusao de um cookie informa-se um tempo negativo

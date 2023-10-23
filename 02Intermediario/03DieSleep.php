@@ -13,9 +13,9 @@
     $nome = 'Rey';
     if ($nome == 'Ana') {
         //sleep forca a aguardar os segundos estipulados
-        echo ('Iniciando App...' . '</br>');
+        echo ('Iniciando App...' . '<br>');
         sleep(1);
-        echo ('OK' . '</br>');
+        echo ('OK' . '<br>');
     } else {
         //die forca o encerramento do processamento
         die('Finalizou execução!');

@@ -14,15 +14,15 @@
 
     //Foreach
     foreach ($nomes as $key => $value) {
-        echo ($key . ' = ' . $nomes[$key] . '</br>');
+        echo ($key . ' = ' . $nomes[$key] . '<br>');
     }
 
-    echo ('</br>');
+    echo ('<br>');
 
     //For
     $total = count($nomes);
     for ($i = 0; $i < $total; $i++) {
-        echo ($i . ' = ' . $nomes[$i] . '</br>');
+        echo ($i . ' = ' . $nomes[$i] . '<br>');
     }
     ?>
 

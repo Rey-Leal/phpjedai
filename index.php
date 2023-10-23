@@ -40,14 +40,13 @@
                 <dt>05 Banco de Dados</dt>
                 <dd><a href="05BancoDeDados/01ComandosPDO.php">01 Comandos PDO</a></dd>
             </dl>
-            <dl>
-                <dt>06 Web Services e API</dt>
-                <dd><a href="06WebServicesAPI/01GoogleAPI.php">01 Google API</a></dd>
-            </dl>
         </div>
 
         <div class='col'>
             <dl>
+                <dt>06 Web Services e API</dt>
+                <dd><a href="06WebServicesAPI/01GoogleAPI.php">01 Google API</a></dd>
+                <dd><a href="06WebServicesAPI/02WebServices.php">02 Web Services</a></dd>
             </dl>
         </div>
     </div>

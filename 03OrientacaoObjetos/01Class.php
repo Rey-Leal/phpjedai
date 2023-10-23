@@ -51,9 +51,9 @@
         // Imprime dados em tela
         public function mostrarDados()
         {
-            echo ($this->_nome . '</br>');
-            echo ($this->_idade . '</br>');
-            echo ($this->_peso . '</br>');
+            echo ($this->_nome . '<br>');
+            echo ($this->_idade . '<br>');
+            echo ($this->_peso . '<br>');
         }
         // Aumenta a idade em um ano
         public function fezAniversario()
@@ -70,7 +70,7 @@
     $pessoaB->mostrarDados();
 
     // Metodos estaticos nao necessitam de instancia
-    echo (Pessoa::$varEstatica . '</br>')
+    echo (Pessoa::$varEstatica . '<br>')
     ?>
 </body>
 

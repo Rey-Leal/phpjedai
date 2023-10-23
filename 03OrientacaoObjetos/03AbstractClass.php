@@ -24,7 +24,7 @@
     {
         public function gerarRenda()
         {
-            echo ('Pai.gerarRenda' . '</br>');
+            echo ('Pai.gerarRenda' . '<br>');
         }
     }
 
@@ -32,7 +32,7 @@
     {
         public function cuidar()
         {
-            echo ('Filha.cuidar' . '</br>');
+            echo ('Filha.cuidar' . '<br>');
         }
     }
 

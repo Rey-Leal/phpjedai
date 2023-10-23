@@ -3,6 +3,6 @@ class Utilidades
 {
     function __construct()
     {
-        echo ('Classe Utilidades foi incluída dinamicamente!' . '</br>');
+        echo ('Classe Utilidades foi incluída dinamicamente!' . '<br>');
     }
 }

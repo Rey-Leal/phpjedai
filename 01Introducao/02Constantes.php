@@ -12,7 +12,7 @@
     <?php
     // Definindo constantes 
     define('nomeAplicacao', 'PHP Jedai');
-    echo (nomeAplicacao . '</br>');
+    echo (nomeAplicacao . '<br>');
     ?>
 </body>
 

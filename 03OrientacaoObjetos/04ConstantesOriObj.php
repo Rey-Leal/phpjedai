@@ -20,7 +20,7 @@
         }
     }
 
-    echo (minhaClasse::valor . '</br>');
+    echo (minhaClasse::valor . '<br>');
     ?>
 </body>
 

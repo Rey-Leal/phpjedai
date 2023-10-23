@@ -18,14 +18,14 @@
     if (isset($_GET['nome']) && isset($_GET['email'])) {
         $nome = $_GET['nome'];
         $email = $_GET['email'];
-        echo ('GET = ' . $nome . ' ' . $email . '</br>');
+        echo ('GET = ' . $nome . ' ' . $email . '<br>');
     }
     // Leitura POST
     if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['sexo'])) {
         $nome = $_POST['nome'];
         $email = $_POST['email'];
         $sexo = $_POST['sexo'];
-        echo ('POST = ' . $nome . ' ' . $email . ' ' . $sexo . '</br>');
+        echo ('POST = ' . $nome . ' ' . $email . ' ' . $sexo . '<br>');
     }
     ?>
 
