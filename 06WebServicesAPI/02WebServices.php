@@ -11,18 +11,26 @@
 
     <?php
     try {
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "http://localhost:8080/phpjedai/06WebServicesAPI/request.php");
-        curl_setopt($curl, CURLOPT_POST, 1);
-        curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query(array('var1' => 'val1')));
+        $url = "http://localhost:8080/phpjedai/06WebServicesAPI/request.php";
+
+        $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query(array('request' => 'buscaUsuarios')));
         $api = json_decode(curl_exec($curl));
         curl_close($curl);
 
         if (!curl_errno($curl)) {
-            $nome = $api->nome;
-            $sobrenome = $api->sobrenome;
-            echo ($nome . ' ' . $sobrenome . '<br>');
+            echo ('<pre>');
+            print_r($api);
+            echo ('</pre>');
+
+            foreach ($api as $key => $value) {
+                $nome = $api[$key]->nome;
+                $sobrenome = $api[$key]->sobrenome;
+                $sexo = $api[$key]->sexo;
+                echo ($key . ' ' . $nome . ' ' . $sobrenome . ' ' .  $sexo . '<br>');
+            }
         } else {
             die("API não retornou!" . "<br>");
         }
