@@ -48,6 +48,11 @@
                 <dd><a href="06WebServicesAPI/01GoogleAPI.php">01 Google API</a></dd>
                 <dd><a href="06WebServicesAPI/02WebServices.php">02 Web Services</a></dd>
             </dl>
+            <dl>
+                <dt>07 Composer</dt>
+                <dd><a href="07Composer/01Dependencia.php">01 Dependência</a></dd>
+                <dd><a href="07Composer/02Dependencia.php">02 Dependência</a></dd>
+            </dl>
         </div>
     </div>
 
