@@ -63,6 +63,8 @@
                 <dd><a href="08ConceitosAvancados/01Static.php">01 Static Keyword</a></dd>
                 <dd><a href="08ConceitosAvancados/02Buffer.php">02 Buffer</a></dd>
                 <dd><a href="08ConceitosAvancados/03Recursividade.php">03 Recursividade</a></dd>
+                <dd><a href="08ConceitosAvancados/04ExpressoesRegulares.php">04 Expressões Regulares</a></dd>
+                <dd><a href="08ConceitosAvancados/05VariaveisExternas.php">05 Variáveis Externas</a></dd>
             </dl>
         </div>
     </div>
