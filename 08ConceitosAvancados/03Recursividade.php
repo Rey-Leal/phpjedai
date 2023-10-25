@@ -27,6 +27,7 @@
         $dezenas = array('', 'dez', 'vinte', 'trinta', 'quarenta', 'cinquenta', 'sessenta', 'setenta', 'oitenta', 'noventa');
         $centenas = array('', 'cento', 'duzentos', 'trezentos', 'quatrocentos', 'quinhentos', 'seiscentos', 'setecentos', 'oitocentos', 'novecentos');
         $milhares = array('', 'mil');
+        $milhoes = array('', 'milhão', 'milhões');
 
         if ($numero < 10) {
             return $unidades[$numero];
@@ -40,11 +41,15 @@
             $milhar = floor($numero / 1000);
             $restante = $numero % 1000;
             return numeroPorExtenso($milhar) . ' ' . $milhares[(strlen($numero) < 4) ? 0 : 1] . (($restante != 0) ? ' e ' . numeroPorExtenso($restante) : '');
+        } elseif ($numero < 1000000000) {
+            $milhao = floor($numero / 1000000);
+            $restante = $numero % 1000000;
+            return numeroPorExtenso($milhao) . ' ' . $milhoes[(strlen($numero) < 7) ? 0 : 1] . (($restante != 0) ? ' e ' . numeroPorExtenso($restante) : '');
         }
     }
 
     try {
-        contar(30);
+        contar(30);        
     } catch (Exception $e) {
         die("Erro: " . $e->getMessage() . "<br>");
     }
