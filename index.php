@@ -6,8 +6,13 @@
 </head>
 
 <body>
+    <nav>
+        <div class="nav-wrapper light-blue darken-2 white-text">
+            <p class="brand-logo">PHP Jedai</p>
+        </div>
+    </nav>
+
     <div class='row'>
-        <h4>PHP Jedai</h4>
         <div class='col'>
             <dl>
                 <dt>01 Introdução</dt>
@@ -55,7 +60,9 @@
             </dl>
             <dl>
                 <dt>08 Conceitos Avançados</dt>
-                <dd><a href="08ConceitosAvancados/01Static.php">01 Static Keyword</a></dd>                
+                <dd><a href="08ConceitosAvancados/01Static.php">01 Static Keyword</a></dd>
+                <dd><a href="08ConceitosAvancados/02Buffer.php">02 Buffer</a></dd>
+                <dd><a href="08ConceitosAvancados/03Recursividade.php">03 Recursividade</a></dd>
             </dl>
         </div>
     </div>

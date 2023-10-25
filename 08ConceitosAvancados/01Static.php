@@ -1,3 +1,6 @@
+<!-- 
+Uma variavel de funcao Static e referenciada apenas na primeira execucao 
+-->
 <html>
 
 <head>
@@ -12,7 +15,6 @@
     <?php
     function contarAcessos()
     {
-        // Uma variavel de funcao Static e referenciada apenas na primeira execucao
         static $acessos = 0;
         $acessos++;
         return $acessos;
