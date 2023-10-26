@@ -7,11 +7,12 @@
 <body>
     <header>
         <h2>01 Google API</h2>
+        <p>Google Geocode API - Converte endereco em latitude e longitude (servico pago)</p>
     </header>
 
     <?php
     try {
-        // Google Geocode API - Converte endereco em latitude e longitude (servico pago)
+        // Google Geocode API = Converte endereco em latitude e longitude (servico pago)
         $str = file_get_contents('https://maps.google.com/maps/api/geocode/json?address=rua%20desembargador%20ferreira%20bastso&sensor=false&key=0');
         $endereco = json_decode($str);
         echo ('<pre>');

@@ -1,8 +1,3 @@
-<!-- 
-Buffer e uma area de armazenamento temporario 
-usada para armazenar dados antes de serem enviados para o navegador do usuario
-Muito util por exemplo em caso de headers com erro
--->
 <?php
 // Inicia armazenamento no buffer e nao manda nada ate que eu permita
 ob_start();
@@ -16,6 +11,11 @@ ob_start();
 <body>
     <header>
         <h2>02 Buffer</h2>
+        <p>
+            Buffer e uma area de armazenamento temporario<br>
+            usada para armazenar dados antes de serem enviados para o navegador do usuario<br>
+            Muito util por exemplo em caso de headers com erro<br>
+        </p>
     </header>
 
     <p>Conteúdo da minha página armazenada no buffer...</p>

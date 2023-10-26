@@ -8,12 +8,13 @@
 <body>
     <header>
         <h4>06 GET e POST</h4>
+        <p>
+            GET = parametros enviados via URL visiveis ao usuario<br>
+            POST = parametros enviados via requisicao ocultas ao usuario
+        </p>
     </header>
 
     <?php
-    // GET = parametros enviados via URL visiveis ao usuario
-    // POST = parametros enviados via requisicao ocultas ao usuario
-
     // Leitura GET
     if (isset($_GET['nome']) && isset($_GET['email'])) {
         $nome = $_GET['nome'];

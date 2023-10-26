@@ -7,6 +7,10 @@
 <body>
     <header>
         <h2>05 Implode Explode</h2>
+        <p>
+            explode transforma texto em array informando o delimitador<br>
+            implode transforma array em texto informando o delimitador
+        </p>
     </header>
 
     <?php

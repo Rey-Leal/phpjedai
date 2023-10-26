@@ -1,6 +1,3 @@
-<!-- 
-Variaveis externas permitem acessar as mesmas em funcoes
--->
 <html>
 
 <head>
@@ -10,6 +7,7 @@ Variaveis externas permitem acessar as mesmas em funcoes
 <body>
     <header>
         <h2>05 Variáveis Externas</h2>
+        <p>Variaveis externas permitem acessar as mesmas em funcoes</p>
     </header>
 
     <?php

@@ -1,7 +1,3 @@
-<!-- 
-Expressoes Regulares permitem localizar parte de textos definidas, 
-atraves do texto ou tipo, ou intervalo de letras e numeros
--->
 <html>
 
 <head>
@@ -11,6 +7,10 @@ atraves do texto ou tipo, ou intervalo de letras e numeros
 <body>
     <header>
         <h2>04 Expressões Regulares</h2>
+        <p>
+            Expressoes Regulares permitem localizar parte de textos definidas,<br>
+            atraves do texto ou tipo, ou intervalo de letras e numeros
+        </p>
     </header>
 
     <?php

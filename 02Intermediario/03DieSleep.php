@@ -7,6 +7,7 @@
 <body>
     <header>
         <h2>03 Die Sleep</h2>
+        <p>Força a aplicação a 'dormir' pelo intervalo estipulado</p>
     </header>
 
     <?php

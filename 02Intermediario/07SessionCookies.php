@@ -7,10 +7,14 @@
 <body>
     <header>
         <h2>07 Session e Cookies</h2>
+        <p>
+            Sessions = duram ate que se feche o navegador<br>
+            Cookies = duram por tempo determinado de expiracao em segundos
+        </p>
     </header>
 
     <?php
-    // Sessions - duram ate que se feche o navegador
+    // Sessions = duram ate que se feche o navegador
     session_start();
     $_SESSION['usuario'] = 'Rey';
     if (isset($_SESSION['usuario'])) {
@@ -18,7 +22,7 @@
     }
     session_destroy();
 
-    // Cookies - duram por tempo determinado de expiracao em segundos
+    // Cookies = duram por tempo determinado de expiracao em segundos
     //      o parametro '/' define que o cookie é acessivel em todas as paginas
     //      time() + 60 = 60 seg
     //      time() + (60 * 60) = 1 hs

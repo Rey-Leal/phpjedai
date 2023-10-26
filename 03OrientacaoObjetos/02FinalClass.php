@@ -7,15 +7,15 @@
 <body>
     <header>
         <h2>02 Final Class</h2>
-        <!--
-            Visibilidade de Classes, Métodos e Atributos 
-            public   	pode ser acessado e alterado do lado de fora por qualquer pessoa
-            private    	so pode ser acessado de dentro da classe
-            protected 	existe somente dentro de seu escopo {...}
-            static      acessiveis sem a necessidade de instanciar a classe
-            final       nao pode ser herdada em outras classe
-            abstract    serve apenas para ser herdada, nao pode ser instanciada
-         -->
+        <p>
+            Visibilidade de Classes, Métodos e Atributos<br>
+            public = pode ser acessado e alterado do lado de fora por qualquer pessoa<br>
+            private = so pode ser acessado de dentro da classe<br>
+            protected = existe somente dentro de seu escopo {...}<br>
+            static = acessiveis sem a necessidade de instanciar a classe<br>
+            final = nao pode ser herdada em outras classe<br>
+            abstract = serve apenas para ser herdada, nao pode ser instanciada<br>
+        </p>
     </header>
 
     <?php
