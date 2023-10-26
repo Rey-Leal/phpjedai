@@ -18,7 +18,7 @@
         $nome = 'Rey Leal';
 
         // Busca incidencias da palavra 'Le'
-        if (preg_match("/(.*?)Le(.*)/", $nome)) {
+        if (preg_match("/(.*?)le(.*)/i", $nome)) {
             echo ('Encontrou incidência!' . '<br>');
         } else {
             echo ('Não encontrou incidência!' . '<br>');

@@ -66,6 +66,11 @@
                 <dd><a href="08ConceitosAvancados/03Recursividade.php">03 Recursividade</a></dd>
                 <dd><a href="08ConceitosAvancados/04ExpressoesRegulares.php">04 Expressões Regulares</a></dd>
                 <dd><a href="08ConceitosAvancados/05VariaveisExternas.php">05 Variáveis Externas</a></dd>
+                <dd><a href="08ConceitosAvancados/06Log.php">06 Log</a></dd>
+            </dl>
+            <dl>
+                <dt>09 Frameworks</dt>
+                <dd><a href="09Frameworks/01Laravel.php">01 Laravel</a></dd>
             </dl>
         </div>
     </div>

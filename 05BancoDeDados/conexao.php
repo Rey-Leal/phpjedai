@@ -6,7 +6,14 @@ try {
     $pass = '';
 
     $pdo = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $username, $pass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // ATENCAO! Por questoes de seguranca: usar apenas para DEBUG!
+    // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    // ATENCAO! Por questoes de seguranca: usar apenas para DEBUG!
+    // die("Não foi possível se conectar ao banco de dados $this->_dbname :" . $e->getMessage() . "<br>");
+    die("Não foi possível se conectar ao banco de dados!" . "<br>");
 } catch (Exception $e) {
-    die("Erro: " . $e->getMessage() . "<br>");
+    // ATENCAO! Por questoes de seguranca: usar apenas para DEBUG!
+    // die("Erro:" . $e->getMessage() . "<br>");
+    die("Não foi possível se conectar ao banco de dados!" . "<br>");
 }

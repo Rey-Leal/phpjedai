@@ -8,6 +8,11 @@
 <body>
     <header>
         <h4>01 Comandos PDO</h4>
+        <p>
+            Conexão segura e manipulação via PDO<br>
+            Sempre usar '?' nos parametros da query o PDO consegue evitar SQL Injections, retirando caracteres maliciosos<br>
+            Evitar mensagens completas ou padrão do PDO por questões de segurança
+        </p>
     </header>
 
     <!-- Cadastro de clientes -->
