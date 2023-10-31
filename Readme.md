@@ -1,7 +1,7 @@
 # Curso PHP Jedai
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=COMPLETO!&color=GREEN&style=for-the-badge)
 ## Introducao
-Curso completo de PHP realizado na plataforma danki.code, utilizando:
+Estudo completo de PHP realizado, utilizando:
 * PHP 
 * Laravel
 * Json
